@@ -532,6 +532,16 @@ footer a:hover {
   .app-title:after {
     display: none;
   }
+
+  #contact .app-form{
+    max-width: 250px;
+  }
+
+  #contact .app-form .buttons{
+    display: flex;
+    flex-direction: column;
+  }
+
   footer {
     display: flex;
     flex-direction: column;
